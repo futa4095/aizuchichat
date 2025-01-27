@@ -48,3 +48,5 @@ export const MessageList = forwardRef<HTMLDivElement, MessageListProps>(
         );
     }
 );
+
+MessageList.displayName = 'MessageList';
